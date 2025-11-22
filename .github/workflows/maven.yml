@@ -28,4 +28,4 @@ jobs:
         if: success() || failure()
         with:
           name: SpringBoot Report               # Name of the folder
-          path: demo/bookstore_app/artifact/
+          path: demo/bookstore_app/
