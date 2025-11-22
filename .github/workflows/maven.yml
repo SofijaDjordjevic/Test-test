@@ -28,4 +28,4 @@ jobs:
         if: success() || failure()
         with:
           name: SpringBoot Report               # Name of the folder
-          path: target/site/serenity/
+          path: demo/bookstore_app/artifact/
